@@ -1,21 +1,22 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
-def generate_launch_desc():
+
+def generate_launch_description():
     return LaunchDescription([
-        Node( 
-            package = 'task_1',
-            namespace = 'task_1',
-            executable ='my_pub',
-            name ='task',
-            arguments =['--ros-args', '--log-level','info']
+        Node(
+            package='task_1',
+            namespace='task1',
+            executable='talker',
+            name='talk',
+            arguments=['--ros-args', '--log-level', 'info']
         ),
-        Node( 
-            package = 'task_1',
-            namespace = 'task_1',
-            executable ='my_pub',
-            name ='task',
-            output = 'screen',
-            arguments =['--ros-args', '--log-level','info']
-        ) 
+        Node(
+            package='task_1',
+            namespace='task1',
+            executable='listener',
+            name='lis',
+            output = 'screen', 
+            ros_arguments=['--log-level', 'info']
+        )
     ])

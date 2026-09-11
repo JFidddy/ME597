@@ -17,7 +17,7 @@ class TimeSubscriber(Node):
 
     def listener_callback(self, msg):
         doubletime = msg.data * 2
-        self.get_logger().info('Publisher Time: "%f" Doubled: %f' % msg.data, doubletime)
+        self.get_logger().info(f'Publisher Time: "{msg.data:.3f}" Doubled: {doubletime:.3f}')
 
 
 def main(args=None):

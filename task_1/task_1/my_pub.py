@@ -9,7 +9,7 @@ class Timer(Node):
         self.timer_period = 5  # seconds
         
         self.start_time = self.get_clock().now()
-
+        self.i = 0
         self.timer = self.create_timer(self.timer_period, self.time_callback)
         
     

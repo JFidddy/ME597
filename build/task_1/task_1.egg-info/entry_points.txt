@@ -1,4 +1,0 @@
-[console_scripts]
-listener = task_1.my_sub:main
-talker = task_1.my_pub:main
-

@@ -1,0 +1,37 @@
+[0.642s] Invoking command in '/home/me597/ros2/sim_ws/src/sim_utils': PYTHONPATH=/home/me597/ros2/sim_ws/build/sim_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sim_utils build --build-base /home/me597/ros2/sim_ws/build/sim_utils/build install --record /home/me597/ros2/sim_ws/build/sim_utils/install.log --single-version-externally-managed install_data
+[0.959s] running egg_info
+[0.959s] creating ../../build/sim_utils/sim_utils.egg-info
+[0.959s] writing ../../build/sim_utils/sim_utils.egg-info/PKG-INFO
+[0.959s] writing dependency_links to ../../build/sim_utils/sim_utils.egg-info/dependency_links.txt
+[0.959s] writing entry points to ../../build/sim_utils/sim_utils.egg-info/entry_points.txt
+[0.959s] writing requirements to ../../build/sim_utils/sim_utils.egg-info/requires.txt
+[0.959s] writing top-level names to ../../build/sim_utils/sim_utils.egg-info/top_level.txt
+[0.959s] writing manifest file '../../build/sim_utils/sim_utils.egg-info/SOURCES.txt'
+[0.959s] reading manifest file '../../build/sim_utils/sim_utils.egg-info/SOURCES.txt'
+[0.959s] writing manifest file '../../build/sim_utils/sim_utils.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.966s] running build_py
+[0.966s] creating /home/me597/ros2/sim_ws/build/sim_utils/build
+[0.966s] creating /home/me597/ros2/sim_ws/build/sim_utils/build/lib
+[0.966s] creating /home/me597/ros2/sim_ws/build/sim_utils/build/lib/sim_utils
+[0.966s] copying sim_utils/red_ball_control.py -> /home/me597/ros2/sim_ws/build/sim_utils/build/lib/sim_utils
+[0.966s] copying sim_utils/__init__.py -> /home/me597/ros2/sim_ws/build/sim_utils/build/lib/sim_utils
+[0.966s] running install
+[0.967s] running install_lib
+[0.967s] creating /home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages/sim_utils
+[0.967s] copying /home/me597/ros2/sim_ws/build/sim_utils/build/lib/sim_utils/red_ball_control.py -> /home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages/sim_utils
+[0.967s] copying /home/me597/ros2/sim_ws/build/sim_utils/build/lib/sim_utils/__init__.py -> /home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages/sim_utils
+[0.967s] byte-compiling /home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages/sim_utils/red_ball_control.py to red_ball_control.cpython-310.pyc
+[0.970s] byte-compiling /home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages/sim_utils/__init__.py to __init__.cpython-310.pyc
+[0.970s] running install_data
+[0.970s] creating /home/me597/ros2/sim_ws/install/sim_utils/share/ament_index
+[0.970s] creating /home/me597/ros2/sim_ws/install/sim_utils/share/ament_index/resource_index
+[0.970s] creating /home/me597/ros2/sim_ws/install/sim_utils/share/ament_index/resource_index/packages
+[0.970s] copying resource/sim_utils -> /home/me597/ros2/sim_ws/install/sim_utils/share/ament_index/resource_index/packages
+[0.970s] copying package.xml -> /home/me597/ros2/sim_ws/install/sim_utils/share/sim_utils
+[0.970s] running install_egg_info
+[0.970s] Copying ../../build/sim_utils/sim_utils.egg-info to /home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages/sim_utils-0.0.0-py3.10.egg-info
+[0.977s] running install_scripts
+[1.047s] Installing red_ball_controller script to /home/me597/ros2/sim_ws/install/sim_utils/lib/sim_utils
+[1.047s] writing list of installed files to '/home/me597/ros2/sim_ws/build/sim_utils/install.log'
+[1.164s] Invoked command in '/home/me597/ros2/sim_ws/src/sim_utils' returned '0': PYTHONPATH=/home/me597/ros2/sim_ws/build/sim_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me597/ros2/sim_ws/install/sim_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sim_utils build --build-base /home/me597/ros2/sim_ws/build/sim_utils/build install --record /home/me597/ros2/sim_ws/build/sim_utils/install.log --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/me597/ros2/sim_ws/build/task_2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me597/ros2/sim_ws/install/task_1:/home/me597/ros2/sim_ws/install/sim_utils:/home/me597/ros2/sim_ws/install/py_pubsub:/home/me597/ros2/sim_ws/install/my_package:/home/me597/ros2/sim_ws/src/ME597/install/task_1:/home/me597/ros2/sim_ws/src/ME597/install/py_pubsub:/home/me597/ros2/sim_ws/src/ME597/install/my_package:/opt/ros/humble /usr/bin/cmake /home/me597/ros2/sim_ws/src/ME597/task_2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/me597/ros2/sim_ws/install/task_2_interfaces
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.446s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.490s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.493s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.562s] [31mCMake Error at CMakeLists.txt:16 (rosidl_default_interfaces):
+[0.563s]   Unknown CMake command "rosidl_default_interfaces".
+[0.563s] 
+[0.563s] [0m
+[0.563s] -- Configuring incomplete, errors occurred!
+[0.563s] See also "/home/me597/ros2/sim_ws/build/task_2_interfaces/CMakeFiles/CMakeOutput.log".
+[0.571s] Invoked command in '/home/me597/ros2/sim_ws/build/task_2_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me597/ros2/sim_ws/install/task_1:/home/me597/ros2/sim_ws/install/sim_utils:/home/me597/ros2/sim_ws/install/py_pubsub:/home/me597/ros2/sim_ws/install/my_package:/home/me597/ros2/sim_ws/src/ME597/install/task_1:/home/me597/ros2/sim_ws/src/ME597/install/py_pubsub:/home/me597/ros2/sim_ws/src/ME597/install/my_package:/opt/ros/humble /usr/bin/cmake /home/me597/ros2/sim_ws/src/ME597/task_2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/me597/ros2/sim_ws/install/task_2_interfaces

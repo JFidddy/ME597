@@ -1,0 +1,23 @@
+[0.771s] Invoking command in '/home/me597/ros2/sim_ws/build/task_2': AMENT_PREFIX_PATH=/home/me597/ros2/sim_ws/install/task_2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/me597/ros2/sim_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/me597/ros2/sim_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/me597/ros2/sim_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me597/ros2/sim_ws/install/task_2/lib/python3.10/site-packages:/home/me597/ros2/sim_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/me597/ros2/sim_ws/build/task_2/build --no-deps symlink_data --force
+[1.196s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.196s]   warnings.warn(
+[1.196s] running develop
+[1.408s] running egg_info
+[1.408s] writing task_2.egg-info/PKG-INFO
+[1.408s] writing dependency_links to task_2.egg-info/dependency_links.txt
+[1.408s] writing entry points to task_2.egg-info/entry_points.txt
+[1.412s] writing requirements to task_2.egg-info/requires.txt
+[1.412s] writing top-level names to task_2.egg-info/top_level.txt
+[1.424s] reading manifest file 'task_2.egg-info/SOURCES.txt'
+[1.424s] writing manifest file 'task_2.egg-info/SOURCES.txt'
+[1.429s] running build_ext
+[1.429s] Creating /home/me597/ros2/sim_ws/install/task_2/lib/python3.10/site-packages/task-2.egg-link (link to .)
+[1.429s] Installing client script to /home/me597/ros2/sim_ws/install/task_2/lib/task_2
+[1.429s] Installing service script to /home/me597/ros2/sim_ws/install/task_2/lib/task_2
+[1.429s] Installing talker script to /home/me597/ros2/sim_ws/install/task_2/lib/task_2
+[1.429s] 
+[1.429s] Installed /home/me597/ros2/sim_ws/build/task_2
+[1.436s] running symlink_data
+[1.436s] symbolically linking /home/me597/ros2/sim_ws/build/task_2/resource/task_2 -> /home/me597/ros2/sim_ws/install/task_2/share/ament_index/resource_index/packages
+[1.436s] symbolically linking /home/me597/ros2/sim_ws/build/task_2/package.xml -> /home/me597/ros2/sim_ws/install/task_2/share/task_2
+[1.483s] Invoked command in '/home/me597/ros2/sim_ws/build/task_2' returned '0': AMENT_PREFIX_PATH=/home/me597/ros2/sim_ws/install/task_2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/me597/ros2/sim_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/me597/ros2/sim_ws/install/task_2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/me597/ros2/sim_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me597/ros2/sim_ws/install/task_2/lib/python3.10/site-packages:/home/me597/ros2/sim_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/me597/ros2/sim_ws/build/task_2/build --no-deps symlink_data --force

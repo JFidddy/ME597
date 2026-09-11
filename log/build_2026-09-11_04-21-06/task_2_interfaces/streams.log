@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/me597/ros2/sim_ws/build/task_2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me597/ros2/sim_ws/install/task_1:/home/me597/ros2/sim_ws/install/sim_utils:/home/me597/ros2/sim_ws/install/py_pubsub:/home/me597/ros2/sim_ws/install/my_package:/home/me597/ros2/sim_ws/src/ME597/install/task_1:/home/me597/ros2/sim_ws/src/ME597/install/py_pubsub:/home/me597/ros2/sim_ws/src/ME597/install/my_package:/opt/ros/humble /usr/bin/cmake /home/me597/ros2/sim_ws/src/ME597/task_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/me597/ros2/sim_ws/install/task_2_interfaces
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.433s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.645s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.646s]   By not providing "Findrosid1_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.646s]   this project has asked CMake to find a package configuration file provided
+[0.646s]   by "rosid1_default_generators", but CMake did not find one.
+[0.646s] 
+[0.646s]   Could not find a package configuration file provided by
+[0.646s]   "rosid1_default_generators" with any of the following names:
+[0.646s] 
+[0.646s]     rosid1_default_generatorsConfig.cmake
+[0.646s]     rosid1_default_generators-config.cmake
+[0.646s] 
+[0.646s]   Add the installation prefix of "rosid1_default_generators" to
+[0.646s]   CMAKE_PREFIX_PATH or set "rosid1_default_generators_DIR" to a directory
+[0.646s]   containing one of the above files.  If "rosid1_default_generators" provides
+[0.646s]   a separate development package or SDK, be sure it has been installed.
+[0.646s] 
+[0.646s] [0m
+[0.646s] -- Configuring incomplete, errors occurred!
+[0.646s] See also "/home/me597/ros2/sim_ws/build/task_2_interfaces/CMakeFiles/CMakeOutput.log".
+[0.652s] Invoked command in '/home/me597/ros2/sim_ws/build/task_2_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me597/ros2/sim_ws/install/task_1:/home/me597/ros2/sim_ws/install/sim_utils:/home/me597/ros2/sim_ws/install/py_pubsub:/home/me597/ros2/sim_ws/install/my_package:/home/me597/ros2/sim_ws/src/ME597/install/task_1:/home/me597/ros2/sim_ws/src/ME597/install/py_pubsub:/home/me597/ros2/sim_ws/src/ME597/install/my_package:/opt/ros/humble /usr/bin/cmake /home/me597/ros2/sim_ws/src/ME597/task_2_interfaces -DCMAKE_INSTALL_PREFIX=/home/me597/ros2/sim_ws/install/task_2_interfaces
